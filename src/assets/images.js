@@ -24,7 +24,7 @@ import work6 from './work-6.jpg';
 import work7 from './work-7.jpg';
 import work8 from './work-8.jpg';
 import sohaib from "./Sohaib-removebg-preview.png"
-import sohaib2 from "./sohaib2.jpg"
+import sohaib2 from "./sohaib2.JPG"
 export {
   js,
   mongodb,
