@@ -26,8 +26,12 @@ const Hero = () => {
     Contact
   </button>
 </a>
-    <button className='bg-black text-white text-lg p-3 rounded-xl font-bold w-50 hover:bg-white hover:text-black duration-200 transition-all ease-in-out cursor-pointer h-05'> Download CV</button>
-</div>    
+    <button
+      onClick={() => downloadPDF('/resume.pdf', 'My_CV.pdf')}
+      className='w-full hover:bg-blue-500 hover:text-white duration-300 ease-in-out transition-all bg-amber-600 h-10 font-bold cursor-pointer text-sm p-2 rounded-2xl'
+    >
+      Download CV
+    </button></div>    
     
     </div>   
 

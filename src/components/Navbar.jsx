@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-
+import { downloadPDF } from './download'
 const Navbar = () => {
   const [active, setActive] = useState(false)
+   
 
   return (
 <nav className='w-full bg-white fixed top-0 left-0 z-50 shadow-md'>
@@ -21,10 +22,12 @@ const Navbar = () => {
         </ul>
 
         <div className='w-1/3 lg:w-1/6 flex justify-center '>
-          <button className='w-full hover:bg-blue-500 hover:text-white duration-300 ease-in-out transition-all bg-amber-600  h-10 font-bold cursor-pointer text-sm p-2 rounded-2xl'>
-            Download CV
-          </button>
-        </div>
+    <button
+      onClick={() => downloadPDF('/resume.pdf', 'My_CV.pdf')}
+      className='w-full hover:bg-blue-500 hover:text-white duration-300 ease-in-out transition-all bg-amber-600 h-10 font-bold cursor-pointer text-sm p-2 rounded-2xl'
+    >
+      Download CV
+    </button>        </div>
 
         <div className='lg:hidden absolute right-4 top-4'>
           <button onClick={() => setActive(!active)}>
