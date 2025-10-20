@@ -14,7 +14,7 @@ const Hero = () => {
 <div className='md:text-start text-2xl  text-center font-bold t sm:text-6xl flex justify-center md:justify-start wrap-normal w-full   text-gray-700'>
     <Typewriter
   options={{
-    strings: ['Hello', 'I am Sohaib Ali','JavaScript UI/UX Developer'],
+    strings: ['Hello', 'I am Sohaib Ali','JavaScript Full Stack Developer'],
     autoStart: true,
     loop: true,
   }}
