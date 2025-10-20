@@ -9,7 +9,7 @@ const Hero = () => {
 }} className='w-full flex items-center top-0 inset-0  md:p-35 p-10 h-[600px] relative' >
   <div className=' w-[100%] justify-center  md:justify-start gap-12 flex flex-col md:w-[80%]  h-auto'>
 <div className='h-auto flex md:justify-start justify-center w-full'>
-<h1 className='font-bold  text-2xl'>UI/UX Developer</h1>
+<h1 className='font-bold  text-2xl'>MERN Stack Developer</h1>
 </div>
 <div className='md:text-start text-2xl  text-center font-bold t sm:text-6xl flex justify-center md:justify-start wrap-normal w-full   text-gray-700'>
     <Typewriter
