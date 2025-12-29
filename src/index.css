@@ -1,0 +1,45 @@
+@import "tailwindcss";
+body{
+background:linear-gradient(25deg,rgb(197, 233, 228),rgb(175, 179, 180));
+height: 100vh;
+}
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: "900";
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+@media (max-width:980px) {
+  .media{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+}
+.navItem {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.navItem::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+}
+
+.navItem:hover::after {
+  width: 100%;
+}
+html{
+  scroll-behavior: smooth;
+}
