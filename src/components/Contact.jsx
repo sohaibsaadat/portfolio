@@ -42,7 +42,7 @@ const Contact = () => {
 
           <div className='flex items-center gap-4'>
             <Mail className='w-7 h-7 text-green-600' />
-            <span className='text-lg md:text-xl font-medium'>sohaibsaadat9@email.com</span>
+            <span className='text-lg md:text-xl font-medium'>sohaibsaadat9@gmail.com</span>
           </div>
 
           <div className='flex items-center gap-4'>
