@@ -2,6 +2,11 @@ import React from 'react'
 
 const Project = () => {
   const projects = [
+     {
+      name: 'Quick-Chat',
+      desc: 'QuickChat is a real-time chat application built using the MERN stack with Socket.IO. The application focuses on fast, reliable one-to-one communication with a clean user interface and practical messaging features similar to modern chat platforms.',
+      link: 'https://mern-real-time-chat-app-opal.vercel.app'
+    },
     {
       name: 'Forever-Ecommerce',
       desc: 'This is the Forever E-commerce website, a full-featured online store where users can browse products, add them to cart, place orders, and make payments. Built with React, Tailwind CSS, Node.js, Express, and MongoDB.',
